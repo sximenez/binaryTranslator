@@ -1,4 +1,4 @@
-# English to binary translator
+# 2. English to binary translator
 
 ✅ https://sximenez.github.io/binaryTranslator/
 
