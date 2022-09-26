@@ -3,14 +3,13 @@
 ✅ https://sximenez.github.io/binaryTranslator/
 
 
-The **idea** was to imitate a translation web service, but with binary
-(I was being introduced to algorithms at the time of the project).
+The **idea** was to imitate a translation web service, but with binary<br>(I was being introduced to algorithms at the time of the project).
 
-The **html** is very simple: a header, two buttons and a two ```html textarea``` fields with an input and an output.
+The **html** is very simple: a header, two buttons and a two ```textarea``` fields with an input and an output.
 
 The **css** is based on the Tailwind framework.
 
-For **js**, I first wrote a function with a ```javascriptfor``` loop, splitting the input text and looking for the ASCII and binary codes of each character:
+For **js**, I first wrote a function with a ```for``` loop,<br>splitting the input text and looking for the ASCII and binary codes of each character:
 
 ```Javascript
 function toBinary(str) {
@@ -29,7 +28,7 @@ function toBinary(str) {
 }
 ```
 
-I then created two "click" events, one for the translation button and one for the reset button:
+I then created two "click" events,<br>one for the translation button and one for the reset button:
 
 ```Javascript
 // VAR
