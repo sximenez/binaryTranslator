@@ -3,13 +3,13 @@
 ✅ https://sximenez.github.io/binaryTranslator/
 
 
-The <code style="color:red;">idea</code> was to imitate a translation web service, but with binary<br>(I was being introduced to algorithms at the time of the project).
+The ```idea``` was to imitate a translation web service, but with binary<br>(I was being introduced to algorithms at the time of the project).
 
-The <code style="color:red;">html</code> is very simple: a header, two buttons and a two ```textarea``` fields with an input and an output.
+The ```html``` is very simple: a header, two buttons and a two ```textarea``` fields with an input and an output.
 
-The <code style="color:red;">css</code> is based on the Tailwind framework.
+The ```css``` is based on the Tailwind framework.
 
-For <code style="color:red;">js</code>, I first wrote a function with a ```for``` loop,<br>splitting the input text and looking for the ASCII and binary codes of each character:
+For ```js```, I first wrote a function with a ```for``` loop,<br>splitting the input text and looking for the ASCII and binary codes of each character:
 
 ```Javascript
 function toBinary(str) {
