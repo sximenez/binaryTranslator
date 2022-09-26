@@ -1,0 +1,59 @@
+.guide {
+  border: 1px solid red;
+}
+
+.h-1-10 {
+  height: 10%;
+}
+.h-2-10 {
+  height: 20%;
+}
+.h-3-10 {
+  height: 30%;
+}
+.h-4-10 {
+  height: 40%;
+}
+.h-5-10 {
+  height: 50%;
+}
+.h-6-10 {
+  height: 60%;
+}
+.h-7-10 {
+  height: 70%;
+}
+.h-8-10 {
+  height: 80%;
+}
+.h-9-10 {
+  height: 90%;
+}
+
+.h-10vh {
+  height: 10vh;
+}
+.h-20vh {
+  height: 20vh;
+}
+.h-30vh {
+  height: 30vh;
+}
+.h-40vh {
+  height: 40vh;
+}
+.h-50vh {
+  height: 50vh;
+}
+.h-60vh {
+  height: 60vh;
+}
+.h-70vh {
+  height: 70vh;
+}
+.h-80vh {
+  height: 80vh;
+}
+.h-90vh {
+  height: 90vh;
+}
