@@ -39,7 +39,8 @@ function toBinary(str) {
     let toAscii = x
       .codePointAt()
       .toString(2)
-      .padStart(8, "0");
+      .padStart(8, "0")
+      .padEnd(9);
     result.push(toAscii);
   }
 
