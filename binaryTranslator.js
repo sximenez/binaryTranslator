@@ -1,34 +1,4 @@
-// Binary Search function
-
-function search(arr, x) {
-  arr.sort();
-
-  let start = 0;
-  let end = arr.length - 1;
-
-  while (start <= end) {
-    let mid = Math.floor((start + end) / 2);
-    console.log(start, end, mid);
-
-    if (arr[mid] === x) {
-      return mid;
-    } else if (arr[mid] < x) {
-      start = mid + 1;
-    } else {
-      end = mid - 1;
-    }
-  }
-  return -1;
-
-}
-
-// arr = "123456789".split("").reverse().map(function(x) {
-//   return Number(x);
-// });
-// console.log(arr);
-
-// console.log(search(arr, 8));
-
+// FUNCTIONS
 // Convert to Binary function
 
 function toBinary(str) {
@@ -67,19 +37,21 @@ console.log(toBinary("hello world"));
 console.log(toEnglish(toBinary("hello world")));
 
 // VAR
+let input = document.getElementById("input");
+let output = document.getElementById("output");
 let btnTranslate = document.getElementById("translate");
-let btnReset = document.getElementById("formReset");
+let btnReset = document.getElementById("form_reset");
 
-// EXERCICE
-btnTranslate.addEventListener("click",
+// ACTIONS
+input.addEventListener("keyup",
   function () {
-    document.getElementById("output").innerHTML = toBinary(input.value);
+    output.innerHTML = toBinary(input.value);
   }
 )
 
 btnReset.addEventListener("click",
   function () {
-    document.getElementById("output").innerHTML = ("");
+    output.innerHTML = ("");
     document.getElementById("form1").reset();
   }
 ) 
